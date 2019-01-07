@@ -19,7 +19,7 @@ import org.springframework.web.util.UriComponentsBuilder;
 import com.rest.Entity.Pendiente;
 import com.rest.Service.PendienteService;
 
-@CrossOrigin(origins= {"http://localhost:4200"})
+@CrossOrigin(origins= {"http://localhost:4200","https://apppendiente.herokuapp.com/"})
 @RestController
 public class PendienteController {
  //ejemplo
